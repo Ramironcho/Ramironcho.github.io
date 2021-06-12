@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Inicio</title>
+</head>
+
+<body bgcolor='#ffgg00'>
+    <h1>Compumáticas 2020-21</h1>
+    <h2>Por aquí os dejo los códigos que he hecho durante el curso</h2>
+    <p>
+        <ol>
+            <li><a href='Mates.html'>Planetas</a></li>
+            <li><a href='programacion.html'>De momento no sé</a></li>
+            <li><a href='cafeconleche.html'>Aquí menos</a></li>
+        </ol>
+    </p>
+    <p>
+    <img src='https://media.giphy.com/media/3owzWkGtQ3us1pV0qc/giphy.gif'>
+    </p>
+
+    
+    <script>
+    let x = 200;
+    let nmin = 0;
+    let nmax = 100;
+    let num=0;
+    alert("Piensa un número del 1 al 100");
+    while (num!=x){
+    let num = nmin+ Math.round((nmax-nmin)/2);
+    r = confirm("¿El numero es "+ num + "?");
+    if (r){
+    break;
+    }
+    else{
+    s = confirm("¿Tu numero es mayor que " + num + "?");
+    if (s){
+    nmin = num;
+    
+    }
+    
+    else{
+    nmax = num;
+    
+    }
+    }
+    
+    }
+    
+    
+    
+    </script>
+    
+    
+
+    
+    
+    
+</body>
+
+</html>
